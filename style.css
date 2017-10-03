@@ -1,0 +1,100 @@
+a:link{
+	color:#EB0;
+}
+a:hover{
+	color:#FD0;
+}
+a:visited{
+	color:#B07;
+}
+a:active{
+	color:#A05;
+}
+h1{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+h2{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+h3{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+p{
+    font-family: 'Russo One', sans-serif;
+}
+.title {
+	font-family: 'Redline', sans-serif;
+	font-weight: 900;
+	font-size: 150px;
+	color: red;
+	font-style: oblique;
+}
+
+.titleholder{
+	margin: auto;
+    margin-top: 80px;
+	text-align: center;
+	-ms-transform: rotate(13deg) skewX(-7deg); /* IE 9 */
+    -webkit-transform: rotate(13deg) skewX(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(13deg) skewX(-7deg);
+}
+
+body{
+	background-color: black;
+	color: red;
+	background: url(redline_BG.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 0px -70px;
+	min-width: 100%;
+	background-color: black;
+	margin:0;
+}
+
+@font-face {
+    font-family: Redline;
+    src: url('RedlineTitle.ttf') format('truetype');
+}
+footer{
+	color: white;
+	background-color: #322;
+	margin: 0;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 0;
+	height: 100px;
+	width:100%;
+	bottom: 0;
+	border-top: ridge;
+	border-color: #600;
+}
+.container{
+	width: 80%;
+	display: flex;
+	margin: auto;
+}
+.infobox{
+	width:40%;
+	background: rgba(50,50,50,.9);
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	flex-grow: 1;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+}
+.moviebox{
+	width: 100px;
+	flex-grow: 6;
+	margin: auto;
+	padding:0;
+	bottom:0;
+	background: #000;
+	box-shadow: 10px 10px 10px #100;
+}
+video{
+	width: 100%;
+	padding:0;
+	margin:0;
+	bottom:0;
+}
